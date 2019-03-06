@@ -3,7 +3,7 @@ VOLUME /tmp
 MAINTAINER wangmeng
 ENV LANG C.UTF-8
 COPY . /
-RUN mv oss-server.jar app.jar
+RUN mv oss-server-1.1.jar app.jar
 RUN jar -uvf app.jar BOOT-INF/classes/application.properties
 RUN mkdir /data/db 
 RUN cp oss1.0.db /data/db/
