@@ -5,6 +5,8 @@ ENV LANG C.UTF-8
 COPY . /
 RUN mv oss-server.jar app.jar
 RUN jar -uvf app.jar BOOT-INF/classes/application.properties
+RUN mkdir /data/db 
+RUN cp oss1.0.db /data/db/
 EXPOSE 18000
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' >/etc/timezone
