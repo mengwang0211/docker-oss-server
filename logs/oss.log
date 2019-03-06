@@ -1,0 +1,23 @@
+2019-03-06 12:49:41,457 INFO (StartupInfoLogger.java:50)- Starting OssServerApplication v1.1 on MengdeMacBook-Pro.local with PID 22723 (/Users/mengwang/Downloads/oss-server/oss-server-1.1.jar started by mengwang in /Users/mengwang/Downloads/oss-server)
+2019-03-06 12:49:41,461 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-03-06 12:49:41,463 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2019-03-06 12:49:41,591 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67117f44: startup date [Wed Mar 06 12:49:41 CST 2019]; root of context hierarchy
+2019-03-06 12:49:44,405 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 18000 (http)
+2019-03-06 12:49:44,567 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 2976 ms
+2019-03-06 12:49:44,767 INFO (AbstractFilterRegistrationBean.java:244)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-06 12:49:44,768 INFO (AbstractFilterRegistrationBean.java:244)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-06 12:49:44,768 INFO (AbstractFilterRegistrationBean.java:244)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-06 12:49:44,769 INFO (AbstractFilterRegistrationBean.java:244)- Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-06 12:49:44,769 INFO (AbstractFilterRegistrationBean.java:244)- Mapping filter: 'corsFilter' to: [/*]
+2019-03-06 12:49:44,769 INFO (AbstractFilterRegistrationBean.java:244)- Mapping filter: 'globalRequestMappingFilter' to: [/*]
+2019-03-06 12:49:44,769 INFO (ServletRegistrationBean.java:185)- Servlet dispatcherServlet mapped to [/]
+2019-03-06 12:49:44,982 DEBUG (MybatisStdOutImpl.java:49)- Logging initialized using 'class com.xiaominfo.oss.extend.mybatis.MybatisStdOutImpl' adapter.
+2019-03-06 12:49:45,034 DEBUG (MybatisStdOutImpl.java:49)- Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2019-03-06 12:49:45,038 DEBUG (MybatisStdOutImpl.java:49)- Checking to see if class com.xiaominfo.oss.module.model.OSSDeveloper matches criteria [is assignable to Object]
+2019-03-06 12:49:45,039 DEBUG (MybatisStdOutImpl.java:49)- Checking to see if class com.xiaominfo.oss.module.model.OSSAppInfo matches criteria [is assignable to Object]
+2019-03-06 12:49:45,039 DEBUG (MybatisStdOutImpl.java:49)- Checking to see if class com.xiaominfo.oss.module.model.OSSInformation matches criteria [is assignable to Object]
+2019-03-06 12:49:45,040 DEBUG (MybatisStdOutImpl.java:49)- Checking to see if class com.xiaominfo.oss.module.model.OSSMaterialInfo matches criteria [is assignable to Object]
+2019-03-06 12:49:45,040 DEBUG (MybatisStdOutImpl.java:49)- Checking to see if class com.xiaominfo.oss.module.model.OSSStatisticDay matches criteria [is assignable to Object]
+2019-03-06 12:49:45,042 DEBUG (MybatisStdOutImpl.java:49)- Scanned package: 'com.xiaominfo.oss.module.model' for aliases
+2019-03-06 12:49:45,042 DEBUG (MybatisStdOutImpl.java:49)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@3590fc5b'
+2019-03-06 12:49:45,043 DEBUG (MybatisStdOutImpl.java:49)- Registered plugin: 'com.baomidou.mybatisplus.plugins.OptimisticLockerInterceptor@33d512c1'
